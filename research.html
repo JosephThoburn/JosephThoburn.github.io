@@ -1,55 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>Joseph Thoburn</title>
+
+    <!-- Required for proper phone and tablet scaling -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Research | Joseph Thoburn</title>
+
     <link rel="stylesheet" href="style.css">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/4252cc5fca.js" crossorigin="anonymous"></script>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Crimson+Pro:ital,wght@0,200..900;1,200..900&family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap"
+        rel="stylesheet"
+    >
+
+    <script
+        src="https://kit.fontawesome.com/4252cc5fca.js"
+        crossorigin="anonymous">
+    </script>
+
     <link rel="icon" type="image/png" href="images/Cardinal.png">
 </head>
+
 <body>
+
     <header>
-        <h1>Joseph Thoburn</h1>
-        <p class="subtitle">Ph.D. Candidate in Economics · UNC Chapel Hill</p>
+        <h1>Joseph McKendra Thoburn</h1>
+
+        <p class="subtitle">
+            Graduate Student in Economics · UNC at Chapel Hill
+        </p>
     </header>
 
-    <nav class="navbar">
+    <nav class="navbar" aria-label="Main navigation">
         <ul>
-            <li><a href="index.html">About</a></li>
-            <li><a href="files/Joseph%20Thoburn's%20Resume.pdf" target="_blank">Resume</a></li>
-            <li><a href="research.html" class="active">Research</a></li>
-            <li><a href="teaching.html">Teaching</a></li>
-            <li><a href="mailto:thoburn@unc.edu">Contact</a></li>
+            <li>
+                <a href="index.html">About</a>
+            </li>
+
+            <li>
+                <a
+                    href="files/Joseph%20Thoburn%20CV.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                    CV
+                </a>
+            </li>
+
+            <li>
+                <a href="research.html" class="active">Research</a>
+            </li>
+
+            <li>
+                <a href="teaching.html">Teaching</a>
+            </li>
+
+            <li>
+                <a href="mailto:thoburn@unc.edu">Contact</a>
+            </li>
         </ul>
     </nav>
 
-    <main>
-        <img src="images/Vacancy.png"
-        alt="Scatterplot showing regulatory effects by vacancy rate"
-        style="max-width: 500px; margin: 15px 20px;">
-        <div class="paper">
-            <h2>Z is for Zoning: Market Tightness and the Price Effects of Land Use Regulation</h2>
-            <p class="paper-meta">Undergraduate Thesis · University of Virginia · April 2026</p>
-            <p class="paper-summary">
-            This paper examines the relationship between changes in land use regulations and housing prices across U.S. municipalities. To measure the change in regulatory intensity, I utilize the Wharton Residential Land Use Regulatory Index (WRLURI) from 2006 and 2018. I regress municipal-level housing price growth, measured as the real percentage change in the FHFA House Price Index matched to the municipal level, on the change in regulatory intensity. I examine how the relationship between regulatory changes and price growth varies with initial vacancy rates, testing whether market tightness moderates the observed association with regulatory restrictions. The results indicate that municipalities experiencing increased regulatory restrictiveness are associated with higher real housing price growth, with this relationship notably stronger in areas initially characterized by low vacancy rates.
+    <main class="research-layout">
+
+        <figure class="research-figure">
+            <img
+                src="images/Vacancy.png"
+                alt="Scatterplot showing how the relationship between regulatory changes and housing-price growth varies by vacancy rate"
+                class="research-image"
+            >
+        </figure>
+
+        <section class="paper">
+            <h2>
+                Z Is for Zoning: Market Tightness and the Price Effects of Land Use Regulation
+            </h2>
+
+            <p class="paper-meta">
+                Undergraduate Thesis · University of Virginia · April 2026
             </p>
-            <a href="files/Zoning.pdf" class="paper-link" target="_blank">Read Paper →</a>
-        </div>
+
+            <p class="paper-summary">
+                This paper examines the relationship between changes in land-use
+                regulations and housing prices across U.S. municipalities. To
+                measure changes in regulatory intensity, I use the Wharton
+                Residential Land Use Regulatory Index from 2006 and 2018.
+            </p>
+
+            <p class="paper-summary">
+                I regress municipal-level housing-price growth, measured as the
+                real percentage change in the FHFA House Price Index matched to
+                the municipal level, on changes in regulatory intensity. I then
+                examine whether the relationship between regulatory changes and
+                price growth varies with initial vacancy rates.
+            </p>
+
+            <p class="paper-summary">
+                The results indicate that increases in regulatory restrictiveness
+                are associated with higher real housing-price growth. This
+                relationship is notably stronger in municipalities that initially
+                had lower vacancy rates.
+            </p>
+
+            <a
+                href="files/Zoning.pdf"
+                class="paper-link"
+                target="_blank"
+                rel="noopener noreferrer">
+                Read Paper →
+            </a>
+        </section>
+
     </main>
 
-   <footer>
-        <a href="mailto:thoburn@unc.edu">Email: thoburn@unc.edu</a>
-        <div class = "icons">
-            <a href="https://www.linkedin.com/in/joseph-thoburn-76825016b/" target="_blank">
-            <i class="fa-brands fa-linkedin"></i>
+    <footer>
+        <a href="mailto:thoburn@unc.edu">
+            Email: thoburn@unc.edu
+        </a>
+
+        <p>&copy; 2026 Joseph Thoburn. All rights reserved.</p>
+
+        <div class="icons">
+            <a
+                href="https://www.linkedin.com/in/joseph-thoburn-76825016b/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Joseph Thoburn on LinkedIn">
+                <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
             </a>
-            <a href="https://github.com/JosephThoburn" target="_blank">
-            <i class="fa-brands fa-github"></i>
+
+            <a
+                href="https://github.com/JosephThoburn"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Joseph Thoburn on GitHub">
+                <i class="fa-brands fa-github" aria-hidden="true"></i>
             </a>
         </div>
     </footer>
+
 </body>
+
 </html>
